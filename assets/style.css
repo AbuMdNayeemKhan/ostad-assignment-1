@@ -76,3 +76,83 @@ nav ul li a {
 }
 
 /* hero section ended */
+
+/* about section start */
+/* About Section */
+.about {
+    background: #f8f9fa;
+    padding: 80px 20px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    flex: 1;
+    max-width: 600px;
+}
+
+.about-text h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.about-text h3 {
+    font-size: 24px;
+    color: #555;
+}
+
+.about-text span {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.about-text p {
+    font-size: 18px;
+    color: #666;
+    margin: 15px 0;
+    line-height: 1.6;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 20px;
+    background: #007bff;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+.about-image img {
+    width: 280px;
+    height: auto;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-image img {
+        margin-top: 20px;
+    }
+}
+/* about section ended */
