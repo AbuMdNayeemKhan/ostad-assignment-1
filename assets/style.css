@@ -228,7 +228,7 @@ nav ul li a {
 /* contact section start */
 .contact{
     padding: 50px 0;
-    max-width: 500px;
+    width: 500px;
 }
 .about .container {
     background: #ffffff;
@@ -264,6 +264,19 @@ input, textarea {
 .footer-container {
     margin: 0 auto;
     padding: 0 20px;
+}
+
+.footer .social-icons{
+    margin-bottom: 36px;
+}
+
+.footer .social-icons a{
+    transition-duration: 1s;
+}
+
+.footer .social-icons a:hover{
+    color: #FFFFFF;
+    transform: scale(1.3);
 }
 
 .footer-text {
@@ -324,7 +337,32 @@ input, textarea {
         font-size: 26px;
     }
     /* nav section ended */
-    /* hero section start */
     
+    /* hero section start */
+    .hero{
+        padding: 100px 10px;
+    }
     /* hero section ended */
+
+    /* about section start */
+    .container{
+        width: 95%;
+    }
+    .about-content{
+        flex-direction: column-reverse;
+        gap: 36px;
+    }
+    /* about section ended */
+
+    /* education section start */
+    .education-section {
+        width: 95%;
+    }
+    /* eductaion section start */
+
+    /* contact secton start */
+    .contact{
+        width: 95%;
+    }
+    /* contact secton ended */
 }
