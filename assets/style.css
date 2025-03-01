@@ -37,7 +37,7 @@ header {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 15px;
+    gap: 25px;
 }
 nav ul li {
     display: inline;
@@ -316,12 +316,12 @@ input, textarea {
     }
     nav{
         position: absolute;
-        top: 70px;
+        top: 57px;
         left: -101%;
         background-color: #363636;
         padding: 20px;
         height: 130px;
-        width: 150px;
+        width: 111px;
         border-radius: 0 0 20px 0;
         transition-duration: 333ms;
         z-index: 999;
@@ -331,6 +331,7 @@ input, textarea {
     }
     nav ul{
         flex-direction: column;
+        gap: 15px;
     }
     .togoller{
         display: block;
